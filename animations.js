@@ -1,7 +1,6 @@
 function start() {
     if (window.innerHeight > window.innerWidth) {
-
-        document.getElementById("card").style.width = '64vw';
+        document.getElementById("card").style.width = '36vw';
     }
 }
 
