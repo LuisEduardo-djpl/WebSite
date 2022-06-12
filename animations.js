@@ -1,6 +1,16 @@
 function start() {
     if (window.innerHeight > window.innerWidth) {
         document.getElementById("card").style.width = '36vw';
+    } else {
+        document.getElementById("card").style.width = '64vh';
+    }
+}
+
+function resize() {
+    if (window.innerHeight > window.innerWidth) {
+        document.getElementById("card").style.width = '64vw';
+    } else {
+        document.getElementById("card").style.width = '64vh';
     }
 }
 
@@ -43,7 +53,6 @@ function animation() {
 
     setTimeout(function() {
         if (window.innerHeight > window.innerWidth) {
-
             document.getElementById("card").style.width = '64vw';
         } else {
             document.getElementById("card").style.width = '64vh';
