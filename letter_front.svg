@@ -1,0 +1,10 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+ <title>letter_front.svg</title>
+
+ <g>
+  <title>Layer 1</title>
+  <path stroke="#ededa8" id="svg_5" d="m-49.99999,348.99999l199.27603,-297.99997l199.27603,297.99997l-398.55207,0l0.00001,0z" fill="#ededa8" transform="rotate(90 149.276 200)"/>
+  <path stroke="#ededa8" id="svg_6" d="m250,349.82623l199.14283,-299.65246l199.14283,299.65246l-398.28566,0z" fill="#ededa8" transform="rotate(-90 449.143 200)"/>
+  <path id="svg_7" d="m0,399.28573l299.439,-235.72384l299.439,235.72384l-598.878,0l0.00001,0l-0.00001,0z" fill="#f2f2a9" stroke="#f2f2a9"/>
+ </g>
+</svg>

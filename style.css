@@ -1,0 +1,52 @@
+body {
+    background-color: azure;
+}
+
+.letter {
+    position: relative;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#envelope {
+    position: relative;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: none;
+    transition: 3s;
+}
+
+#base {
+    position: absolute;
+    z-index: 0;
+    width: 70vw;
+}
+
+#front {
+    position: absolute;
+    z-index: 2;
+    width: 70vw;
+    transition: 3s;
+}
+
+#tab {
+    position: absolute;
+    z-index: 3;
+    width: 70vw;
+    transition: 2s;
+    transform: rotate(0deg);
+    transform-origin: 0% 0%;
+}
+
+#card {
+    position: absolute;
+    z-index: 1;
+    width: 64vh;
+    transition: 2s;
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+}
