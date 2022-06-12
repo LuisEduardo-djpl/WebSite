@@ -7,10 +7,18 @@ function start() {
 }
 
 function resize() {
-    if (window.innerHeight > window.innerWidth) {
-        document.getElementById("card").style.width = '64vw';
+    if (document.getElementById("envelope").style.opacity == '0') {
+        if (window.innerHeight > window.innerWidth) {
+            document.getElementById("card").style.width = '64vw';
+        } else {
+            document.getElementById("card").style.width = '64vh';
+        }
     } else {
-        document.getElementById("card").style.width = '64vh';
+        if (window.innerHeight > window.innerWidth) {
+            document.getElementById("card").style.width = '36vw';
+        } else {
+            document.getElementById("card").style.width = '64vh';
+        }
     }
 }
 
@@ -39,7 +47,6 @@ function animation() {
         document.getElementById("card").style.transform = 'rotate(0deg)';
 
         if (window.innerHeight > window.innerWidth) {
-
             document.getElementById("card").style.width = '50vw';
         } else {
             document.getElementById("card").style.width = '50vh';
